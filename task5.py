@@ -7,6 +7,6 @@ student_marks = {
 
 name = input("Enter the student's name: ")
 if name in student_marks:
-    print(f"{name} scored {student_marks[name]} marks.")
+    print(f"{name}'s marks: {student_marks[name]} ")
 else:
     print("Student not found in the record.")
